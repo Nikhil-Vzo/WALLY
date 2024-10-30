@@ -1,0 +1,498 @@
+*
+{
+ margin: 0%;
+ padding: 0%;
+
+}
+
+.header
+{
+    background-image: url("https://i.ibb.co/pQKjt5H/vecteezy-ai-generated-a-tranquil-beach-at-sunrise-where-pastel-hues-38819410.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+
+.container2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:0%;
+    height: 60px;
+    width: 400px;
+    font-weight: bolder;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    position: fixed;
+}
+
+
+
+
+    
+  .link a
+  {
+    font-family: cursive;
+    color: rgb(56, 2, 126);
+    display: flex;
+    font-size: 16px;
+    text-decoration:none;
+  }
+
+  .cap
+  {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  
+
+.text-bottom {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 200px; 
+    left: 50%; 
+    transform: translateX(-50%); /* Adjust to truly center */
+    font-family: cursive;
+    font-size: 26px; 
+    white-space: nowrap;
+    font-weight: 900; 
+    color: #47f6ff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
+    letter-spacing: 1px; 
+}
+
+.author
+{
+  font-family: cursive;
+  font-weight: lighter;
+  font-size: 20px;
+  border-bottom: dashed 2px transparent;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  color: red;
+  word-spacing: 9px;
+  font-weight: 900;
+  background-color: rgb(134, 237, 239);
+  box-shadow: 0 0 10px rgba(4, 249, 249, 0.8), 0 0 20px rgba(4, 249, 249, 0.6), 0 0 30px rgba(4, 249, 249, 0.4);
+  border-radius: 5px;
+
+  .slide
+  {
+    color: blue;
+    text-align: center;
+  }
+
+}
+
+.mmm
+{
+  height: 50%;
+  width: 100%;
+
+
+  
+}
+
+.img1
+{
+  position: relative;
+}
+
+.down , .details
+{
+  position: absolute;
+  padding: 8px 16px;
+  background-color: transparent; /* Semi-transparent background */
+  color: white;
+  border-radius: 5px;
+}
+
+.down
+{
+  bottom: 10px;
+  left: 10px;
+  background-color: transparent;
+ 
+}
+
+.details
+ {
+  bottom: 10px;
+  right: 10px;
+  backdrop-filter: blur(3px);
+  border-left: solid white;
+}
+
+.d1
+{
+  height: 100px;
+  width: 1150px;
+  font-family: cursive;
+  font-weight: 900;
+  color: white;
+  background: transparent;
+  backdrop-filter: blur(3px);
+  font-size: 26px;
+  border:solid white;
+}
+
+.ok
+{
+  padding: 30px;
+}
+
+
+.wall2
+{
+  height: 140vh;
+  width: 100%;
+}
+
+
+.img2
+{
+  position: relative;
+}
+
+.down2, .details2
+{
+  position:absolute;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+.down2{
+  bottom: 10px;
+  left: 10px;
+  border-color: transparent;
+}
+
+
+.details2
+{
+  bottom: 10px;
+  right: 10px;
+}
+
+.d2 
+{
+  height: 100px;
+  width: 1100px;
+  font-family: cursive;
+  font-weight: 900;
+  font-size: 26px;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  color: white;
+  border: solid white;
+}
+
+.details2
+{
+  word-spacing: 2px;
+  font-size: 19px;
+  background: transparent;
+  backdrop-filter: blur(3px);
+  border-left: solid white;
+  
+}
+
+.ok2
+{
+  padding: 30px;
+}
+
+
+
+.wall3
+{
+  width: 100%;
+  height: 140vhpx;
+
+}
+
+.img3
+{
+  position: relative;
+}
+
+
+.down3, .details3
+{
+padding: 8px 16px;
+position: absolute;
+border-radius: 5px;
+color: white;
+background-color: transparent;
+}
+
+.down3
+{
+  bottom: 10px;
+  left: 10px;
+  background: transparent;
+}
+
+.details3
+{
+  bottom: 10px;
+  right: 10px;
+  border-left: solid white;
+}
+
+.d3{
+  height: 100px;
+  width: 1100px;
+  font-family: cursive;
+  font-weight: 900;
+  font-size: 26px;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  color: white;
+  border: solid white;
+}
+
+.details3
+{
+  word-spacing: 2px;
+  font-size: 19px;
+  background: transparent;
+  backdrop-filter: blur(3px);
+  
+}
+
+.ok3
+{
+  padding: 30px;
+}
+
+.img4
+{
+  position: relative;
+}
+
+.wall4
+{
+  height: 140vh;
+  width: 100%;
+}
+
+.down4, .details4
+{
+  position:absolute;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background: transparent;
+  columns: white;
+}
+
+.down4
+{
+  bottom: 10px;
+  left: 10px;
+  background: transparent;
+}
+
+.details4
+{
+  bottom: 10px;
+  right: 10px;
+  backdrop-filter: blur(3px);
+  font-family: cursive;
+  word-spacing: 2px;
+  color: white;
+  font-size: 19px;
+  border-left: solid white;
+}
+
+.d4
+{
+  height: 100px;
+  width: 1100px;
+  background: transparent;
+  backdrop-filter: blur(2px);
+  color: white;
+  font-weight: 900;
+  font-family: cursive;
+  font-size: 26px;
+  border: solid white;
+}
+
+.ok4{
+  padding: 30px;
+}
+
+
+
+
+
+.img5
+{
+  position: relative;
+}
+
+.wall5
+{
+  height: 140vh;
+  width: 100%;
+}
+
+.down5, .details5
+{
+  position:absolute;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background: transparent;
+  columns: white;
+}
+
+.down5
+{
+  bottom: 10px;
+  left: 10px;
+  background: transparent;
+}
+
+.details5
+{
+  bottom: 10px;
+  right: 10px;
+  backdrop-filter: blur(3px);
+  font-family: cursive;
+  word-spacing: 2px;
+  color: white;
+  font-size: 19px;
+  border-left: solid white;
+}
+
+.d5
+{
+  height: 100px;
+  width: 1100px;
+  background: transparent;
+  backdrop-filter: blur(4px);
+  color: white;
+  font-weight: 900;
+  font-family: cursive;
+  font-size: 26px;
+  border: solid white;
+}
+
+.ok5{
+  padding: 30px;
+  padding-bottom: 0px;
+}
+
+.end
+{
+  height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: dashed grey;
+font-weight: 900;
+font-size: 38px;
+color: gray;
+margin-top: 15px;
+margin: 30px;
+background-color: aqua;
+}
+
+.ultra
+{
+  background-image: url(https://i.ibb.co/ZN73p9h/pxfuel.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size:cover ;
+  display: flex;
+}
+
+.ultra
+{
+  position: relative;
+}
+
+
+.photo
+{
+  border-radius: 50%;
+  border: solid;
+  height: 40vh;
+  width: 40vh ;
+  position: absolute;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+right: 40%;
+border-color: rgba(255, 255, 255, 0.5); /* Adjust the border color if needed */
+  
+  /* Updated box-shadow for a brighter and more visible neon glow */
+  box-shadow: 
+    0 0 10px rgb(141, 219, 8),    /* Bright cyan glow */
+    0 0 20px rgba(0, 255, 255, 0.7),    /* Larger cyan glow */
+    0 0 30px rgba(0, 255, 255, 0.6),    /* Even larger cyan glow */
+    0 0 40px rgba(0, 255, 255, 0.5),    /* More spread */
+    0 0 50px rgba(0, 255, 255, 0.4);    /* Widest glow */
+}
+
+
+
+.iiii
+{
+  height: 40vh;
+  width: 40vh;
+  border-radius: 50%;
+}
+
+.about
+{
+  width: 80%;
+  background-color:  transparent;
+  top: 60%;
+  position: absolute;
+  right: 10%;
+  background-color: aqua;
+  border-radius: 10px;
+  font-family: cursive;
+  background: transparent;
+  backdrop-filter: blur(19px);
+  border: solid snow;
+  color: black;
+
+}
+
+.mee
+{
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 15px;
+}
+
+.about
+{
+padding-top: 20px;
+}
+
+.about{
+  font-size: larger;
+  text-align: center;
+
+}
+
+
+
+
+
