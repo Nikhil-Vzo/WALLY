@@ -62,7 +62,7 @@
     left: 50%; 
     transform: translateX(-50%); /* Adjust to truly center */
     font-family: cursive;
-    font-size: 26px; 
+    font-size: 26px;
     white-space: nowrap;
     font-weight: 900; 
     color: #47f6ff; 
@@ -408,6 +408,13 @@ color: gray;
 margin-top: 15px;
 margin: 30px;
 background-color: aqua;
+border-color: rgba(255, 255, 255, 0.5); 
+  box-shadow: 
+    0 0 10px rgb(141, 219, 8),    /* Bright cyan glow */
+    0 0 20px rgba(0, 255, 255, 0.7),    /* Larger cyan glow */
+    0 0 30px rgba(0, 255, 255, 0.6),    /* Even larger cyan glow */
+    0 0 40px rgba(0, 255, 255, 0.5),    /* More spread */
+    0 0 50px rgba(0, 255, 255, 0.4);    /* Widest glow */
 }
 
 .ultra
@@ -421,56 +428,33 @@ background-color: aqua;
 
 .ultra
 {
-  position: relative;
-}
-
-
-.photo
-{
-  border-radius: 50%;
-  border: solid;
-  height: 40vh;
-  width: 40vh ;
-  position: absolute;
-  top: 40px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-right: 40%;
-border-color: rgba(255, 255, 255, 0.5); /* Adjust the border color if needed */
-  
-  /* Updated box-shadow for a brighter and more visible neon glow */
-  box-shadow: 
-    0 0 10px rgb(141, 219, 8),    /* Bright cyan glow */
-    0 0 20px rgba(0, 255, 255, 0.7),    /* Larger cyan glow */
-    0 0 30px rgba(0, 255, 255, 0.6),    /* Even larger cyan glow */
-    0 0 40px rgba(0, 255, 255, 0.5),    /* More spread */
-    0 0 50px rgba(0, 255, 255, 0.4);    /* Widest glow */
+  position: absolute;
 }
 
 
-
-.iiii
-{
-  height: 40vh;
-  width: 40vh;
-  border-radius: 50%;
-}
 
 .about
 {
   width: 80%;
   background-color:  transparent;
-  top: 60%;
   position: absolute;
   right: 10%;
   background-color: aqua;
   border-radius: 10px;
-  font-family: cursive;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background: transparent;
   backdrop-filter: blur(19px);
-  border: solid snow;
-  color: black;
+  box-shadow: 
+    0 0 10px rgb(247, 33, 18),    /* Bright cyan glow */
+    0 0 20px rgb(247, 33, 18),    /* Larger cyan glow */
+    0 0 30px rgb(247, 33, 18),    /* Even larger cyan glow */
+    0 0 40px rgb(247, 33, 18),    /* More spread */
+    0 0 50px rgba(247, 33, 18, 0.9);    /* Widest glow */
+   
+    font-size: larger;
+  text-align: center;
+  transform: translateY(30%);
 
 }
 
@@ -479,20 +463,170 @@ border-color: rgba(255, 255, 255, 0.5); /* Adjust the border color if needed */
   font-size: 20px;
   font-weight: bolder;
   padding: 15px;
+  
 }
 
-.about
+
+
+
+@media (max-width:768px)
 {
-padding-top: 20px;
+
+   .text-bottom
+  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
-.about{
-  font-size: larger;
-  text-align: center;
 
+
+
+
+@media (max-width:768px)
+{
+  .d1, .d2, .d3, .d4, .d5
+  {
+    width: 100%;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    padding-left: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    word-spacing: 19px;
+
+
+  
+  
+  }
+}
+
+@media (max-width:768px)
+{
+  .text-bottom
+  {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 
+@media (max-width:768px)
+{
+  .wall2, .wall4, .wall5
+  {
+    width: 100%;
+    height: 50%;
+    padding: 0%;
+  }
+}
 
+@media (max-width:768px)
+{
+  .img1, .img2, .img3, .img4, .img5
+  {
+    padding: 0%;
+  }
+  }
+
+
+  @media (max-width:768px)
+  {
+  .iiii, .photo
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+  }
+
+
+  
+  @media (max-width:768px)
+  {
+    .details
+    {
+      height: 0%;
+      width: 0%;
+      border: transparent;
+      backdrop-filter:blur(0px);
+      font-size: 0px;
+      color: transparent;
+    }
+  }
+
+  @media (max-width:768px)
+  {
+    .down, .down2, .down3, .down4, .down5
+    {
+      bottom: 0px;
+      width: 95%;
+      padding-left: 0px;
+padding-right: 0px;
+line-height: 11px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+    }
+  }
+
+  @media (max-width:768px)
+  {
+    .text-bottom
+    {
+      font-size: 20px;
+      width: 50%;
+    }
+  }
+
+  @media (max-width:768px)
+  {
+    .end{
+      text-wrap: nowrap;
+      font-size: 20px;
+      color: black;
+      word-spacing: 19px;
+      height: 40px;
+    }
+  }
+
+
+
+  @media (max-width:768px)
+  {
+    .mee{
+      color: whitesmoke;
+    }
+  }
+
+
+  @media (max-width:768px)
+  {
+    .slide
+    {
+     text-wrap: nowrap;
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 18px;
+    text-align: center;
+    }
+  }
+
+  @media (max-width:768px)
+  {
+    .about
+    {
+      transform: translateY(5%);
+    }
+  }
 
 
